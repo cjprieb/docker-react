@@ -1,0 +1,6 @@
+# action.yml
+name: 'Docker'
+description: 'Build development container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile.dev'
